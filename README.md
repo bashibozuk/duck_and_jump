@@ -1,0 +1,1 @@
+Simple duck and jump JavaScript game
