@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+
+#stage {
+	min-height: 320px;
+	border: 1px solid red;
+	position: relative;
+}
+
+#player {
+	position: absolute;
+	bottom: 20px;
+	width: 75px;
+	height: 200px;
+	background-color: green;
+	left: 100px;
+}
