@@ -1,0 +1,14 @@
+{
+  "name": "duck_and_jump",
+  "homepage": "https://github.com/bashibozuk/duck_and_jump",
+  "authors": [
+    "ittalents"
+  ],
+  "description": "simple JS game",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^2.2.0"
+  }
+}
