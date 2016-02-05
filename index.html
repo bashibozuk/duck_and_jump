@@ -53,6 +53,7 @@
 				
 				<div id="stage">
 					<div id="player"></div>
+					<div id="obstacle"></div>
 				</div>
 			</div>
 			
@@ -112,6 +113,9 @@
 		<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
 		<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/application.js"></script>
+		<script type="text/javascript" src="js/Obstacle.js"></script>
+		<script type="text/javascript" src="js/Player.js"></script>
+		<script type="text/javascript" src="js/Stage.js"></script>
 		<script type="text/javascript">
 			$(function() {
 				$('#open-modal').on('click', function() {
@@ -123,7 +127,11 @@
 					'game': 'game-play',
 					'score': 'score-panel'
 				});
+				
+				var stage = new Stage();
+				stage.start();
 			})
+			
 		</script>
 	</body>
 </html>
